@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arkanos Quest – Ciências I</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { background: linear-gradient(to bottom, #0d1b2a, #1b263b); color: white; font-family: 'Roboto', sans-serif; padding: 20px; text-align: center; }
+    .quiz-box { background: white; color: black; padding: 20px; border-radius: 10px; max-width: 500px; margin: 0 auto; }
+    .option-btn { display: block; margin: 10px 0; padding: 10px; font-size: 16px; border-radius: 6px; border: none; background: #e0e0e0; cursor: pointer; }
+    .correct { background-color: #c8e6c9 !important; }
+    .wrong { background-color: #ffcdd2 !important; }
+    .feedback { margin-top: 12px; font-weight: bold; }
+    #nextBtn { display: none; margin-top: 20px; padding: 10px 20px; font-size: 16px; border-radius: 5px; border: none; background: #2196F3; color: white; cursor: pointer; }
+    .progress-track { background: #d0d0d0; border-radius: 10px; height: 12px; margin-top: 20px; overflow: hidden; }
+    .progress-fill { background: #4a90e2; height: 100%; transition: width 0.3s ease; }
+  </style>
+</head>
+<body>
+  <div id="startScreen" style="text-align:center; margin-top: 50px;">
+    <img src="logo_arkanos_quest.png" alt="Logo Arkanos Quest" style="width:140px; margin-bottom:20px;" />
+    <h1 style="font-size: 26px;">ARKANOS QUEST – Ciências I</h1>
+    <p style="font-size:18px; font-weight:bold; margin-bottom: 20px;">Boa sorte!<br>Jogo é jogado, Lambari é pescado</p>
+    <input type="text" id="playerName" placeholder="Digite seu nome" style="padding:10px; font-size:16px; border-radius:6px; width:60%; max-width:300px;" />
+    <br/><br/>
+    <button onclick="startQuiz()" style="padding:12px 24px; font-size:16px; background:#2196F3; border:none; border-radius:6px; color:white; cursor:pointer;">⛵ Começar a jornada</button>
+  </div>
+
+  <div class="quiz-box" id="quizContainer" style="display:none;">
+    <h2 id="questionTitle">Carregando pergunta...</h2>
+    <div id="optionsBox"></div>
+    <div class="feedback" id="feedback"></div>
+    <button id="nextBtn" onclick="nextQuestion()">Tocar o Barcão</button>
+    <div class="progress-track"><div id="progressFill" class="progress-fill" style="width:0%;"></div></div>
+    <div id="scoreBox" style="display:none; margin-top: 20px;"></div>
+  </div>
+
+<script>
+  const quiz = [{"question": "Qual o principal gás responsável pelo efeito estufa?", "options": ["Gás carbônico", "Oxigênio", "Hidrogênio", "Nitrogênio"], "answer": "Gás carbônico"}, {"question": "Quantos cromossomos possui um ser humano saudável?", "options": ["23", "46", "44", "92"], "answer": "46"}, {"question": "Qual o maior órgão do corpo humano?", "options": ["Fígado", "Pulmão", "Coração", "Pele"], "answer": "Pele"}, {"question": "O que é fotossíntese?", "options": ["Respiração das plantas", "Produção de luz pelas plantas", "Processo de produção de energia pelas plantas", "Absorção de água"], "answer": "Processo de produção de energia pelas plantas"}, {"question": "Qual planeta é conhecido como 'planeta vermelho'?", "options": ["Marte", "Júpiter", "Saturno", "Vênus"], "answer": "Marte"}, {"question": "Qual o nome da galáxia onde vivemos?", "options": ["Andrômeda", "Via Láctea", "Galáxia de Magalhães", "Galáxia Sombrinha"], "answer": "Via Láctea"}, {"question": "O que é H2O?", "options": ["Oxigênio", "Hidrogênio", "Água", "Ácido"], "answer": "Água"}, {"question": "Quem desenvolveu a teoria da gravidade?", "options": ["Galileu", "Newton", "Einstein", "Hawking"], "answer": "Newton"}, {"question": "Qual o órgão responsável por bombear sangue no corpo humano?", "options": ["Pulmão", "Coração", "Rim", "Fígado"], "answer": "Coração"}, {"question": "Qual o nome do tecido que cobre o corpo?", "options": ["Epitélio", "Cartilagem", "Músculo", "Tendão"], "answer": "Epitélio"}, {"question": "Qual é a unidade de medida da intensidade da corrente elétrica?", "options": ["Volt", "Watt", "Ohm", "Ampère"], "answer": "Ampère"}, {"question": "Qual é a camada mais externa da Terra?", "options": ["Manto", "Crosta", "Núcleo", "Litosfera"], "answer": "Crosta"}, {"question": "Qual é o nome do processo de divisão celular?", "options": ["Fagocitose", "Mitose", "Síntese", "Clivagem"], "answer": "Mitose"}, {"question": "Qual é o estado físico da água em temperatura ambiente?", "options": ["Sólido", "Líquido", "Gasoso", "Plasma"], "answer": "Líquido"}, {"question": "O que é um eclipse solar?", "options": ["Lua encobre o Sol", "Sol encobre a Lua", "Sol fica apagado", "Sol gira mais rápido"], "answer": "Lua encobre o Sol"}, {"question": "Qual elemento químico tem o símbolo 'O'?", "options": ["Ouro", "Oxigênio", "Ósmio", "Ozônio"], "answer": "Oxigênio"}, {"question": "Qual o planeta mais próximo do Sol?", "options": ["Terra", "Vênus", "Marte", "Mercúrio"], "answer": "Mercúrio"}, {"question": "Qual cientista desenvolveu a teoria da relatividade?", "options": ["Newton", "Galileu", "Einstein", "Bohr"], "answer": "Einstein"}, {"question": "Qual o processo de conversão de gás em líquido?", "options": ["Condensação", "Evaporação", "Fusão", "Sublimação"], "answer": "Condensação"}, {"question": "Qual o principal órgão do sistema nervoso?", "options": ["Cérebro", "Coração", "Rim", "Estômago"], "answer": "Cérebro"}, {"question": "O que é DNA?", "options": ["Tipo de célula", "Material genético", "Proteína", "Vírus"], "answer": "Material genético"}, {"question": "Qual o símbolo químico da água?", "options": ["O2", "H2", "H2O", "OH"], "answer": "H2O"}, {"question": "Qual camada da atmosfera protege a Terra dos raios UV?", "options": ["Troposfera", "Estratosfera", "Ozônio", "Mesosfera"], "answer": "Ozônio"}, {"question": "Qual parte da célula controla suas funções?", "options": ["Ribossomo", "Núcleo", "Citoplasma", "Lisossomo"], "answer": "Núcleo"}, {"question": "Qual o principal órgão da respiração humana?", "options": ["Traqueia", "Fígado", "Pulmão", "Diafragma"], "answer": "Pulmão"}, {"question": "O que é um átomo?", "options": ["Célula viva", "Partícula indivisível", "Molécula", "Elemento químico"], "answer": "Partícula indivisível"}, {"question": "Qual planeta tem o maior número de luas?", "options": ["Saturno", "Júpiter", "Urano", "Netuno"], "answer": "Júpiter"}, {"question": "Qual a principal função dos glóbulos vermelhos?", "options": ["Lutar contra infecções", "Transportar oxigênio", "Coagular o sangue", "Formar hormônios"], "answer": "Transportar oxigênio"}, {"question": "O que é clorofila?", "options": ["Hormônio vegetal", "Pigmento verde das plantas", "Vitaminas", "Raiz"], "answer": "Pigmento verde das plantas"}, {"question": "O que significa 'pH'?", "options": ["Potencial de hidrogênio", "Pressão hídrica", "Peso hídrico", "Porosidade hidrostática"], "answer": "Potencial de hidrogênio"}];
+  let current = 0, score = 0, playerName = "";
+
+  function startQuiz() {
+    playerName = document.getElementById("playerName").value.trim();
+    if (!playerName) { alert("Por favor, digite seu nome para começar."); return; }
+    document.getElementById("startScreen").style.display = "none";
+    document.getElementById("quizContainer").style.display = "block";
+    loadQuestion();
+  }
+
+  function loadQuestion() {
+    const q = quiz[current];
+    document.getElementById("questionTitle").innerText = (current + 1) + ". " + q.question;
+    const optionsBox = document.getElementById("optionsBox");
+    optionsBox.innerHTML = "";
+    document.getElementById("feedback").innerText = "";
+    document.getElementById("nextBtn").style.display = "none";
+    q.options.forEach(opt => {
+      const btn = document.createElement("button");
+      btn.className = "option-btn";
+      btn.innerText = opt;
+      btn.onclick = () => checkAnswer(btn, q.answer);
+      optionsBox.appendChild(btn);
+    });
+    updateProgress();
+  }
+
+  function checkAnswer(button, correct) {
+    document.querySelectorAll(".option-btn").forEach(b => b.disabled = true);
+    if (button.innerText === correct) {
+      button.classList.add("correct");
+      document.getElementById("feedback").innerText = "✅ Correto!";
+      score++;
+    } else {
+      button.classList.add("wrong");
+      document.getElementById("feedback").innerText = "❌ Errado! Resposta correta: " + correct;
+    }
+    document.getElementById("nextBtn").style.display = "block";
+  }
+
+  function nextQuestion() {
+    current++;
+    if (current < quiz.length) { loadQuestion(); }
+    else { endQuiz(); }
+  }
+
+  function updateProgress() {
+    document.getElementById("progressFill").style.width = (current / quiz.length * 100) + "%";
+  }
+
+  function endQuiz() {
+    document.getElementById("questionTitle").innerText = "Fim do jogo!";
+    document.getElementById("optionsBox").style.display = "none";
+    document.getElementById("feedback").style.display = "none";
+    document.getElementById("nextBtn").style.display = "none";
+    const scoreBox = document.getElementById("scoreBox");
+    scoreBox.style.display = "block";
+    scoreBox.innerHTML = `
+      <p style="font-size:16px; font-family:'Roboto', sans-serif; margin: 10px auto 16px; max-width: 400px;">
+        🏆 <strong>Sua jornada pelo Arkanos Quest termina aqui... por enquanto.</strong><br>
+        Obrigado por jogar! Que venham novas batalhas, novos acertos e muito mais Lambari pela frente!
+      </p>
+      <h3>Você acertou <strong>${score}</strong> de <strong>${quiz.length}</strong> perguntas.</h3>
+    `;
+    document.getElementById("progressFill").style.width = "100%";
+  }
+</script>
+</body>
+</html>
