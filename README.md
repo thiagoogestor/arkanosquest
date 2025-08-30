@@ -456,8 +456,8 @@
       { "question": "Qual o maior arquipélago do mundo?", "answers": ["Filipinas", "Japão", "Maldivas", "Indonésia"], "correct": 3 }
     ]
   },
-  "geografia_parte_3": {
-    "name": "Geografia - Parte 3",
+  "geografia 3": {
+    "name": "Geografia 3",
     "questions": [
       { "question": "Qual a capital da Alemanha?", "answers": ["Munique", "Hamburgo", "Frankfurt", "Berlim"], "correct": 3 },
       { "question": "O Canal de Suez conecta quais dois mares?", "answers": ["Mar Negro e Mar Cáspio", "Mar Mediterrâneo e Mar Vermelho", "Mar Báltico e Mar do Norte", "Mar Adriático e Mar Jônico"], "correct": 1 },
@@ -481,8 +481,8 @@
       { "question": "Qual o nome do movimento das placas tectônicas?", "answers": ["Erosão", "Intemperismo", "Tectonismo", "Vulkanismo"], "correct": 2 }
     ]
   },
-  "geografia_parte_3": {
-    "name": "Geografia - Parte 3",
+  "geografia 4": {
+    "name": "Geografia 4",
     "questions": [
       { "question": "Qual a capital da Turquia?", "answers": ["Istambul", "Ancara", "Izmir", "Bursa"], "correct": 1 },
       { "question": "O Estreito de Gibraltar separa a Espanha de qual país africano?", "answers": ["Argélia", "Líbia", "Egito", "Marrocos"], "correct": 3 },
