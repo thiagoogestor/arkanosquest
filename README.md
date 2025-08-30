@@ -406,8 +406,8 @@
                     { question: "Quem foi a figura central do Apartheid na África do Sul?", answers: ["Desmond Tutu", "F. W. de Klerk", "Nelson Mandela", "Thabo Mbeki"], correct: 2}
                 ]
             },
-            "geografia": {
-                name: "Geografia",
+            "geografia 1": {
+                name: "Geografia 1",
                 questions: [
                     { question: "Qual é o maior oceano do mundo?", answers: ["Atlântico", "Índico", "Pacífico", "Ártico"], correct: 2 },
                     { question: "Qual é a capital da Argentina?", answers: ["Santiago", "Montevidéu", "Bogotá", "Buenos Aires"], correct: 3 },
@@ -431,6 +431,81 @@
                     { question: "Qual o país mais pequeno do mundo?", answers: ["Mónaco", "Nauru", "São Marino", "Vaticano"], correct: 3 }
                 ]
             },
+  "geografia 2": {
+    "name": "Geografia 2",
+    "questions": [
+      { "question": "Qual é a capital da Austrália?", "answers": ["Sydney", "Melbourne", "Camberra", "Brisbane"], "correct": 2 },
+      { "question": "Que país é conhecido como a 'Terra dos Mil Lagos'?", "answers": ["Suécia", "Noruega", "Canadá", "Finlândia"], "correct": 3 },
+      { "question": "O Monte Everest está localizado em qual cordilheira?", "answers": ["Andes", "Himalaia", "Alpes", "Montanhas Rochosas"], "correct": 1 },
+      { "question": "Qual é o maior país da América do Sul em área territorial?", "answers": ["Argentina", "Peru", "Colômbia", "Brasil"], "correct": 3 },
+      { "question": "Qual oceano banha a costa leste dos Estados Unidos?", "answers": ["Pacífico", "Índico", "Atlântico", "Ártico"], "correct": 2 },
+      { "question": "A Grande Muralha é um famoso ponto turístico de qual país?", "answers": ["Japão", "Índia", "China", "Mongólia"], "correct": 2 },
+      { "question": "Qual é a capital da Espanha?", "answers": ["Barcelona", "Lisboa", "Roma", "Madrid"], "correct": 3 },
+      { "question": "Qual o rio mais longo da Europa?", "answers": ["Danúbio", "Volga", "Reno", "Sena"], "correct": 1 },
+      { "question": "Em que país se encontram as pirâmides de Gizé?", "answers": ["Sudão", "Líbia", "Egito", "Marrocos"], "correct": 2 },
+      { "question": "Qual é o menor continente do mundo?", "answers": ["Europa", "Antártida", "América do Sul", "Oceania"], "correct": 3 },
+      { "question": "Qual o nome do fenômeno que causa as estações do ano?", "answers": ["Rotação", "Translação", "Precessão", "Nutação"], "correct": 1 },
+      { "question": "Qual país tem o maior número de ilhas no mundo?", "answers": ["Indonésia", "Filipinas", "Suécia", "Japão"], "correct": 2 },
+      { "question": "A cidade de Istambul está localizada em dois continentes. Quais são eles?", "answers": ["África e Ásia", "Europa e África", "Europa e Ásia", "Ásia e Oceania"], "correct": 2 },
+      { "question": "Qual o deserto mais seco do mundo?", "answers": ["Saara", "Gobi", "Atacama", "Kalahari"], "correct": 2 },
+      { "question": "Qual a capital da Itália?", "answers": ["Milão", "Nápoles", "Veneza", "Roma"], "correct": 3 },
+      { "question": "Que mar separa a Europa da África?", "answers": ["Mar Negro", "Mar Mediterrâneo", "Mar Vermelho", "Mar Adriático"], "correct": 1 },
+      { "question": "Qual o ponto mais alto do Brasil?", "answers": ["Pico da Bandeira", "Monte Roraima", "Pico da Neblina", "Pico 31 de Março"], "correct": 2 },
+      { "question": "Qual o nome dado à camada de ar que envolve a Terra?", "answers": ["Litosfera", "Hidrosfera", "Atmosfera", "Biosfera"], "correct": 2 },
+      { "question": "A Península Ibérica é formada por quais países?", "answers": ["França e Espanha", "Portugal e Marrocos", "Espanha e Portugal", "Itália e Grécia"], "correct": 2 },
+      { "question": "Qual o maior arquipélago do mundo?", "answers": ["Filipinas", "Japão", "Maldivas", "Indonésia"], "correct": 3 }
+    ]
+  },
+  "geografia_parte_3": {
+    "name": "Geografia - Parte 3",
+    "questions": [
+      { "question": "Qual a capital da Alemanha?", "answers": ["Munique", "Hamburgo", "Frankfurt", "Berlim"], "correct": 3 },
+      { "question": "O Canal de Suez conecta quais dois mares?", "answers": ["Mar Negro e Mar Cáspio", "Mar Mediterrâneo e Mar Vermelho", "Mar Báltico e Mar do Norte", "Mar Adriático e Mar Jônico"], "correct": 1 },
+      { "question": "Qual é o maior estado dos Estados Unidos em área?", "answers": ["Texas", "Alasca", "Califórnia", "Montana"], "correct": 1 },
+      { "question": "Em que continente fica a Groenlândia?", "answers": ["Europa", "Ásia", "América do Norte", "Oceania"], "correct": 2 },
+      { "question": "Qual país é o maior produtor de café do mundo?", "answers": ["Colômbia", "Vietnã", "Brasil", "Etiópia"], "correct": 2 },
+      { "question": "Qual é o nome do maior vulcão ativo da Europa?", "answers": ["Vesúvio", "Etna", "Stromboli", "Hekla"], "correct": 1 },
+      { "question": "Qual cidade é famosa por seus canais e gôndolas?", "answers": ["Amsterdã", "Bruges", "Estocolmo", "Veneza"], "correct": 3 },
+      { "question": "Qual é a capital do Egito?", "answers": ["Alexandria", "Luxor", "Cairo", "Gizé"], "correct": 2 },
+      { "question": "O rio Amazonas deságua em qual oceano?", "answers": ["Pacífico", "Atlântico", "Índico", "Ártico"], "correct": 1 },
+      { "question": "Qual a montanha mais alta do Japão?", "answers": ["Monte Kita", "Monte Fuji", "Monte Okuhotaka", "Monte Aino"], "correct": 1 },
+      { "question": "Qual o nome da linha imaginária oposta ao Meridiano de Greenwich?", "answers": ["Linha do Equador", "Trópico de Capricórnio", "Linha Internacional de Data", "Círculo Polar Antártico"], "correct": 2 },
+      { "question": "Que país se estende ao longo da costa oeste da América do Sul?", "answers": ["Peru", "Equador", "Colômbia", "Chile"], "correct": 3 },
+      { "question": "Qual a capital da Coreia do Sul?", "answers": ["Busan", "Incheon", "Seul", "Daegu"], "correct": 2 },
+      { "question": "Qual é a maior ilha do Mar Mediterrâneo?", "answers": ["Sardenha", "Córsega", "Chipre", "Sicília"], "correct": 3 },
+      { "question": "A Floresta Amazônica está localizada principalmente em qual país?", "answers": ["Peru", "Colômbia", "Equador", "Brasil"], "correct": 3 },
+      { "question": "Qual o país mais visitado do mundo?", "answers": ["Espanha", "Estados Unidos", "China", "França"], "correct": 3 },
+      { "question": "Em que país está localizado o Taj Mahal?", "answers": ["Paquistão", "Índia", "Bangladesh", "Nepal"], "correct": 1 },
+      { "question": "Qual é o maior lago da África?", "answers": ["Lago Tanganica", "Lago Malawi", "Lago Vitória", "Lago Turkana"], "correct": 2 },
+      { "question": "Qual a capital do México?", "answers": ["Guadalajara", "Monterrey", "Cidade do México", "Puebla"], "correct": 2 },
+      { "question": "Qual o nome do movimento das placas tectônicas?", "answers": ["Erosão", "Intemperismo", "Tectonismo", "Vulkanismo"], "correct": 2 }
+    ]
+  },
+  "geografia_parte_3": {
+    "name": "Geografia - Parte 3",
+    "questions": [
+      { "question": "Qual a capital da Turquia?", "answers": ["Istambul", "Ancara", "Izmir", "Bursa"], "correct": 1 },
+      { "question": "O Estreito de Gibraltar separa a Espanha de qual país africano?", "answers": ["Argélia", "Líbia", "Egito", "Marrocos"], "correct": 3 },
+      { "question": "Qual o rio mais longo dos Estados Unidos?", "answers": ["Mississippi", "Missouri", "Yukon", "Rio Grande"], "correct": 1 },
+      { "question": "Qual o país com a maior costa litorânea do mundo?", "answers": ["Rússia", "Austrália", "Indonésia", "Canadá"], "correct": 3 },
+      { "question": "Qual a capital da Tailândia?", "answers": ["Chiang Mai", "Phuket", "Bangkok", "Pattaya"], "correct": 2 },
+      { "question": "Qual é a cidade mais populosa do mundo?", "answers": ["Xangai", "Delhi", "São Paulo", "Tóquio"], "correct": 3 },
+      { "question": "A Patagônia é uma região compartilhada por quais dois países?", "answers": ["Brasil e Argentina", "Chile e Peru", "Argentina e Chile", "Bolívia e Paraguai"], "correct": 2 },
+      { "question": "Qual é o oceano mais frio do mundo?", "answers": ["Atlântico", "Pacífico", "Índico", "Ártico"], "correct": 3 },
+      { "question": "Em que país fica a cidade de Machu Picchu?", "answers": ["Bolívia", "Equador", "Peru", "Colômbia"], "correct": 2 },
+      { "question": "Qual é o maior país da África em área territorial?", "answers": ["Sudão", "República Democrática do Congo", "Argélia", "Líbia"], "correct": 2 },
+      { "question": "Qual o nome da península onde se localizam a Noruega e a Suécia?", "answers": ["Península Itálica", "Península Balcânica", "Península Escandinava", "Península da Jutlândia"], "correct": 2 },
+      { "question": "Qual a capital da Nova Zelândia?", "answers": ["Auckland", "Christchurch", "Wellington", "Queenstown"], "correct": 2 },
+      { "question": "As Cataratas do Iguaçu fazem fronteira entre o Brasil e qual outro país?", "answers": ["Paraguai", "Uruguai", "Bolívia", "Argentina"], "correct": 3 },
+      { "question": "Qual o mar interior localizado entre a Europa Oriental e a Ásia Ocidental?", "answers": ["Mar Negro", "Mar Cáspio", "Mar de Aral", "Mar Báltico"], "correct": 1 },
+      { "question": "Qual é a língua mais falada no mundo (como primeira língua)?", "answers": ["Inglês", "Mandarim", "Espanhol", "Hindi"], "correct": 1 },
+      { "question": "Qual o nome do processo de transformação de rochas pelo calor e pressão?", "answers": ["Sedimentação", "Erosão", "Metamorfismo", "Magmatismo"], "correct": 2 },
+      { "question": "Qual o país com mais fusos horários?", "answers": ["Rússia", "Estados Unidos", "Canadá", "França"], "correct": 3 },
+      { "question": "A cidade de Petra, um famoso sítio arqueológico, fica em qual país?", "answers": ["Síria", "Jordânia", "Líbano", "Israel"], "correct": 1 },
+      { "question": "Qual a capital da Irlanda?", "answers": ["Belfast", "Cork", "Galway", "Dublin"], "correct": 3 },
+      { "question": "Qual é a ilha mais populosa do mundo?", "answers": ["Grã-Bretanha", "Honshu", "Java", "Luzon"], "correct": 2 }
+    ]
+  },
             "corpo_humano": {
                 name: "Corpo Humano",
                 questions: [
