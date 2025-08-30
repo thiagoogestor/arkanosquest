@@ -1085,6 +1085,7 @@
             { "question": "O que é um AVC (Acidente Vascular Cerebral)?", "answers": ["Um ataque cardíaco", "Uma convulsão", "Uma interrupção do fluxo sanguíneo para o cérebro", "Um coágulo de sangue na perna"], "correct": 2 },
             { "question": "Qual é a doença caracterizada pelo crescimento descontrolado de células anormais no corpo?", "answers": ["Diabetes", "Câncer", "Arteriosclerose", "Cirrose"], "correct": 1 }
         ]
+    },
         };
 
         const lobbyScreen = document.getElementById('lobby-screen');
