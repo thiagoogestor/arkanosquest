@@ -1461,6 +1461,81 @@
       { "question": "Qual tecnologia, base do Bitcoin e outras criptomoedas, é um registro de dados distribuído e imutável?", "answers": ["Inteligência Artificial", "Computação em Nuvem", "Internet das Coisas", "Blockchain"], "correct": 3 }
     ]
   },
+"esportes_2": {
+    "name": "Esportes 2",
+    "questions": [
+      { "question": "No rugby, qual o nome da formação em que os jogadores se juntam para disputar a posse de bola após uma infração menor?", "answers": ["Try", "Scrum", "Ruck", "Maul"], "correct": 1 },
+      { "question": "Qual o único país a ter participado de todas as edições da Copa do Mundo de Futebol Masculino?", "answers": ["Alemanha", "Itália", "Argentina", "Brasil"], "correct": 3 },
+      { "question": "No beisebol, o que é um 'grand slam'?", "answers": ["Eliminar três jogadores em uma única jogada", "Um arremesso que ultrapassa 160 km/h", "Um home run com as três bases ocupadas, marcando 4 pontos", "Vencer a World Series por 4 jogos a 0"], "correct": 2 },
+      { "question": "Qual é a prova mais longa do atletismo olímpico, com 50km de distância?", "answers": ["Maratona", "Marcha atlética", "Decatlo", "Triatlo"], "correct": 1 },
+      { "question": "Em que esporte o Brasil ganhou sua primeira medalha de ouro em Olimpíadas de Inverno?", "answers": ["Bobsled", "Curling", "Snowboard", "O Brasil nunca ganhou ouro em Olimpíadas de Inverno"], "correct": 3 },
+      { "question": "No críquete, como se chama o jogador que arremessa a bola?", "answers": ["Batsman", "Wicket-keeper", "Bowler", "Fielder"], "correct": 2 },
+      { "question": "Qual é o nome da principal liga de hóquei no gelo da América do Norte?", "answers": ["AHL", "KHL", "NHL", "IIHF"], "correct": 2 },
+      { "question": "Quantos buracos tem um campo de golfe oficial padrão?", "answers": ["9", "12", "18", "21"], "correct": 2 },
+      { "question": "No MMA, qual a duração padrão de um round em uma luta que não vale cinturão?", "answers": ["3 minutos", "4 minutos", "5 minutos", "10 minutos"], "correct": 2 },
+      { "question": "Qual o nome da manobra no skate em que o atleta salta com a prancha sem usar as mãos?", "answers": ["Kickflip", "Grind", "Manual", "Ollie"], "correct": 3 },
+      { "question": "Qual país é considerado o berço do Judô?", "answers": ["China", "Coreia do Sul", "Japão", "Tailândia"], "correct": 2 },
+      { "question": "No xadrez, qual a única peça que pode pular sobre outras peças?", "answers": ["Bispo", "Torre", "Rainha", "Cavalo"], "correct": 3 },
+      { "question": "Qual é a pontuação máxima que um único dardo pode marcar em um alvo de dardos padrão?", "answers": ["20", "50", "60", "180"], "correct": 2 },
+      { "question": "Qual o nome do evento de ciclismo de estrada mais famoso da Itália, análogo ao Tour de France?", "answers": ["Vuelta a España", "Giro d'Italia", "Milão-Sanremo", "Tour de Suisse"], "correct": 1 },
+      { "question": "No handebol, por quantos segundos um jogador pode segurar a bola sem driblar, andar ou arremessar?", "answers": ["3 segundos", "5 segundos", "7 segundos", "Não há limite"], "correct": 0 },
+      { "question": "Qual a cor da bola usada em uma partida oficial de sinuca para iniciar o jogo (bola de saída)?", "answers": ["Preta", "Branca", "Vermelha", "Amarela"], "correct": 1 },
+      { "question": "Qual o nome da competição de iatismo mais antiga e prestigiada do mundo?", "answers": ["Volvo Ocean Race", "Vendée Globe", "America's Cup", "The Ocean Race"], "correct": 2 },
+      { "question": "No badminton, o objeto que é rebatido sobre a rede é chamado de:", "answers": ["Puck", "Bola", "Peteca", "Frisbee"], "correct": 2 },
+      { "question": "Qual o esporte em que Michael Jordan se aventurou profissionalmente durante sua primeira aposentadoria do basquete?", "answers": ["Golfe", "Beisebol", "Futebol Americano", "Hóquei"], "correct": 1 },
+      { "question": "Em qual década o voleibol de praia se tornou um esporte olímpico?", "answers": ["1980", "1990", "2000", "2010"], "correct": 1 }
+    ]
+  },
+  "futebol_brasileiro_hard": {
+    "name": "Futebol Brasileiro (Hard)",
+    "questions": [
+      { "question": "Qual jogador detém o recorde de mais gols em uma única edição do Campeonato Brasileiro de pontos corridos?", "answers": ["Romário", "Dimba", "Fred", "Washington"], "correct": 3 },
+      { "question": "Qual foi o primeiro clube brasileiro a conquistar a Copa Libertadores da América?", "answers": ["Flamengo", "Grêmio", "Santos", "Palmeiras"], "correct": 2 },
+      { "question": "Em 1999, qual clube pequeno de Caxias do Sul surpreendeu o Brasil ao vencer a Copa do Brasil?", "answers": ["Caxias", "Brasil de Pelotas", "Juventude", "Esportivo"], "correct": 2 },
+      { "question": "Quem foi o técnico da Seleção Brasileira na conquista da Copa do Mundo de 1994?", "answers": ["Zagallo", "Telê Santana", "Carlos Alberto Parreira", "Vanderlei Luxemburgo"], "correct": 2 },
+      { "question": "Qual clube é conhecido pela alcunha de 'Pó de Arroz', devido a um episódio histórico envolvendo um de seus jogadores?", "answers": ["Vasco da Gama", "Botafogo", "Fluminense", "America-RJ"], "correct": 2 },
+      { "question": "Qual foi o placar da final da Copa do Mundo de 1950, o 'Maracanazo', entre Brasil e Uruguai?", "answers": ["1 a 0 para o Uruguai", "2 a 1 para o Uruguai", "3 a 2 para o Uruguai", "2 a 0 para o Uruguai"], "correct": 1 },
+      { "question": "Qual o único clube a ter conquistado o Campeonato Brasileiro da Série A por quatro vezes consecutivas?", "answers": ["Flamengo", "Palmeiras", "Santos", "São Paulo"], "correct": 3 },
+      { "question": "Quem é o maior artilheiro da história do clássico 'Majestoso' (Corinthians vs São Paulo)?", "answers": ["Pelé", "Sócrates", "Raí", "Telêmaco"], "correct": 0 },
+      { "question": "Qual jogador, ídolo do Vasco, é conhecido como 'Animal'?", "answers": ["Romário", "Edmundo", "Dinamite", "Juninho Pernambucano"], "correct": 1 },
+      { "question": "Qual clube paranaense foi campeão brasileiro em 2001, liderado pela dupla Alex e Kléber Pereira?", "answers": ["Coritiba", "Paraná Clube", "Malutrom", "Athletico Paranaense"], "correct": 3 },
+      { "question": "Qual o nome do estádio que foi palco do milésimo gol de Pelé?", "answers": ["Morumbi", "Pacaembu", "Maracanã", "Vila Belmiro"], "correct": 2 },
+      { "question": "Qual jogador ficou conhecido como 'Doutor' por ser um dos líderes da 'Democracia Corinthiana'?", "answers": ["Casagrande", "Sócrates", "Wladimir", "Zenon"], "correct": 1 },
+      { "question": "Qual clube mineiro foi o primeiro campeão da Taça Brasil, em 1959, considerado o primeiro campeonato nacional?", "answers": ["Atlético Mineiro", "Cruzeiro", "América Mineiro", "Bahia"], "correct": 3 },
+      { "question": "Qual o único goleiro a ter marcado mais de 100 gols na carreira?", "answers": ["Marcos", "Taffarel", "Rogério Ceni", "Dida"], "correct": 2 },
+      { "question": "O 'Quadrado Mágico' da Seleção de 2006 era formado por Ronaldo, Adriano, Kaká e quem mais?", "answers": ["Robinho", "Ronaldinho Gaúcho", "Juninho Pernambucano", "Zé Roberto"], "correct": 1 },
+      { "question": "Qual time foi apelidado de 'Carrossel Caipira' nos anos 90 por seu estilo de jogo envolvente?", "answers": ["Guarani", "Bragantino", "Mogi Mirim", "Ponte Preta"], "correct": 2 },
+      { "question": "Qual o primeiro clube-empresa a se tornar campeão brasileiro, em 2021?", "answers": ["Cuiabá", "Fortaleza", "Red Bull Bragantino", "Athletico Paranaense"], "correct": 2 },
+      { "question": "Quem foi o autor do gol do título do Corinthians no Mundial de Clubes de 2012 contra o Chelsea?", "answers": ["Paulinho", "Danilo", "Jorge Henrique", "Paolo Guerrero"], "correct": 3 },
+      { "question": "Qual o apelido do centro de treinamento do Flamengo?", "answers": ["Toca da Raposa", "Ninho do Urubu", "CT da Barra Funda", "Cidade do Galo"], "correct": 1 },
+      { "question": "Qual o nome da taça original da Copa do Mundo, que foi roubada no Brasil e nunca recuperada?", "answers": ["Taça FIFA", "Taça Jules Rimet", "Taça da Vitória", "Taça da Independência"], "correct": 1 }
+    ]
+  },
+  "capas_de_disco": {
+    "name": "Capas de Disco",
+    "questions": [
+      { "question": "A que banda pertence esta icônica capa com um bebê submerso?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg", "answers": ["Pearl Jam", "Soundgarden", "Nirvana", "Alice in Chains"], "correct": 2 },
+      { "question": "Qual álbum dos Beatles apresenta os quatro membros atravessando uma faixa de pedestres?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg", "answers": ["Sgt. Pepper's Lonely Hearts Club Band", "The White Album", "Let It Be", "Abbey Road"], "correct": 3 },
+      { "question": "Esta capa, com um prisma dispersando a luz, é de qual álbum clássico do Pink Floyd?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png", "answers": ["The Wall", "Wish You Were Here", "Animals", "The Dark Side of the Moon"], "correct": 3 },
+      { "question": "Esta capa, com um desenho de dois meninos sentados em um morro, pertence a qual marco da MPB?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/5/58/Clube_da_Esquina.jpg", "answers": ["Elis & Tom", "Tropicália", "Acabou Chorare", "Clube da Esquina"], "correct": 3 },
+      { "question": "Qual álbum de Caetano Veloso tem esta capa com o cantor de perfil e cabelo black power?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/d/da/Caetano_Veloso_-_Transa.jpg", "answers": ["Araçá Azul", "Bicho", "Transa", "Cores, Nomes"], "correct": 2 },
+      { "question": "Esta capa, que mostra um cemitério com uma cruz, é de qual álbum da Legião Urbana?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/c/c8/Legi%C3%A3o_Urbana_-_Dois.jpg", "answers": ["As Quatro Estações", "Dois", "Que País É Este", "V"], "correct": 1 },
+      { "question": "Qual álbum de Michael Jackson tem esta famosa capa onde ele está deitado em um terno branco?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/3/30/Michael_Jackson_-_Thriller.jpg", "answers": ["Bad", "Off the Wall", "Dangerous", "Thriller"], "correct": 3 },
+      { "question": "Esta capa dramática, com os rostos dos membros sobre um fundo preto, é de qual álbum do Queen?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Queen_II.jpg", "answers": ["A Night at the Opera", "Sheer Heart Attack", "Queen II", "A Day at the Races"], "correct": 2 },
+      { "question": "Qual artista aparece com um raio pintado no rosto nesta capa de álbum?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/David_Bowie_-_Aladdin_Sane.jpg", "answers": ["Elton John", "David Bowie", "Lou Reed", "Iggy Pop"], "correct": 1 },
+      { "question": "A famosa banana na capa, com a assinatura de Andy Warhol, é de qual banda?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/TheVelvetUndergroundAndNico.jpg", "answers": ["The Doors", "The Rolling Stones", "The Velvet Underground & Nico", "The Stooges"], "correct": 2 },
+      { "question": "Qual álbum do grupo Novos Baianos tem esta capa com os membros reunidos em um sofá?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/6/64/Acabou_chorare.jpg", "answers": ["Novos Baianos F.C.", "Acabou Chorare", "Vamos pro Mundo", "Farol da Barra"], "correct": 1 },
+      { "question": "A capa deste álbum, um marco da Bossa Nova, mostra apenas os rostos dos dois intérpretes em preto e branco.", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/2/26/Elis_%26_Tom.jpg", "answers": ["Chega de Saudade", "Elis & Tom", "Falso Brilhante", "Construção"], "correct": 1 },
+      { "question": "Qual álbum de Chico Buarque tem uma capa que simula a primeira página de um jornal?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/5/5f/Chico-buarque-construcao-1971.jpg", "answers": ["Meus Caros Amigos", "Chico Buarque de Hollanda", "Construção", "Ópera do Malandro"], "correct": 2 },
+      { "question": "A capa deste álbum clássico do rap nacional mostra os quatro membros do grupo em um fundo de tijolos.", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/8/87/Sobrevivendo_no_Inferno.jpg", "answers": ["Facção Central - A Marcha Fúnebre", "Racionais MC's - Sobrevivendo no Inferno", "Sabotage - Rap é Compromisso", "Thaíde & DJ Hum - Preste Atenção"], "correct": 1 },
+      { "question": "Esta capa minimalista, com manequins em trajes vermelhos, é de qual banda pioneira da música eletrônica?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/8a/Kraftwerk_-_The_Man-Machine.jpg", "answers": ["Daft Punk", "Kraftwerk", "New Order", "Depeche Mode"], "correct": 1 },
+      { "question": "A imagem de ondas de rádio de um pulsar estampa a capa de qual álbum de estreia do Joy Division?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/Unknown_Pleasures.jpg", "answers": ["Closer", "Substance", "Unknown Pleasures", "Still"], "correct": 2 },
+      { "question": "Qual álbum do The Clash tem esta capa com o baixista Paul Simonon quebrando seu instrumento no palco?", "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/The_Clash_-_London_Calling.jpg", "answers": ["The Clash (álbum)", "Sandinista!", "Combat Rock", "London Calling"], "correct": 3 },
+      { "question": "Qual banda de rock brasileira tem esta capa com os quatro membros nus, fotografados por Tuca Reinés?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/e/e3/Carbono_capa.jpg", "answers": ["Titãs - Cabeça Dinossauro", "Sepultura - Roots", "RPM - Rádio Pirata ao Vivo", "Lenine - Carbono"], "correct": 3 },
+      { "question": "Esta capa, com uma pintura surrealista de um rosto com um ovo, é do álbum de estreia de qual banda brasileira?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/a/a2/Secos_%26_Molhados_%281973%29.jpg", "answers": ["Mutantes", "O Terço", "Secos & Molhados", "A Barca do Sol"], "correct": 2 },
+      { "question": "A que dupla de música eletrônica pertence esta capa com os dois membros usando capacetes espaciais?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/8/82/Daft_Punk_-_Random_Access_Memories.jpg", "answers": ["Justice", "The Chemical Brothers", "Daft Punk", "Air"], "correct": 2 }
+    ]
+  },
         };
 
         const lobbyScreen = document.getElementById('lobby-screen');
