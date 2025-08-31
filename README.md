@@ -1586,6 +1586,81 @@
       { "question": "Qual o nome do grande conjunto de árvores e animais que chamamos de 'pulmão do mundo' no Brasil?", "answers": ["Praia de Copacabana", "Floresta Amazônica", "Pão de Açúcar", "Cataratas do Iguaçu"], "correct": 1 }
     ]
   },
+  "dinossauros_facil": {
+    "name": "Dinossauros (Exploradores Jurássicos)",
+    "questions": [
+      { "question": "O que significa o nome 'Tiranossauro Rex'?", "answers": ["Lagarto Terrível", "Rei dos Lagartos Tiranos", "Ladrão Veloz", "Rosto de Três Chifres"], "correct": 1 },
+      { "question": "Qual dinossauro é famoso por ter uma fileira de grandes placas nas costas e espigões na cauda?", "answers": ["Tricerátops", "Estegossauro", "Anquilossauro", "Braquiossauro"], "correct": 1 },
+      { "question": "O Tricerátops era um dinossauro herbívoro. O que isso significa?", "answers": ["Que ele comia carne", "Que ele comia plantas", "Que ele comia peixes", "Que ele comia de tudo"], "correct": 1 },
+      { "question": "Qual evento cataclísmico é a teoria mais aceita para a extinção dos dinossauros?", "answers": ["Uma era do gelo", "Uma grande inundação", "A queda de um asteroide", "Doenças"], "correct": 2 },
+      { "question": "Qual dinossauro pescoçudo é um dos maiores animais que já andaram na Terra?", "answers": ["Tiranossauro Rex", "Velociraptor", "Braquiossauro", "Estegossauro"], "correct": 2 },
+      { "question": "Como os cientistas que estudam fósseis de dinossauros são chamados?", "answers": ["Arqueólogos", "Geólogos", "Biólogos", "Paleontólogos"], "correct": 3 },
+      { "question": "O Velociraptor era um caçador pequeno e ágil. Em que período ele viveu?", "answers": ["Triássico", "Jurássico", "Cretáceo", "Paleogeno"], "correct": 2 },
+      { "question": "Qual dinossauro era conhecido como um 'tanque de guerra' vivo, por sua couraça óssea e clava na cauda?", "answers": ["Anquilossauro", "Tricerátops", "Parassaurolofo", "Iguanodonte"], "correct": 0 },
+      { "question": "O que são fósseis?", "answers": ["Pedras preciosas", "Ossos de animais atuais", "Restos ou vestígios de seres vivos muito antigos", "Plantas raras"], "correct": 2 },
+      { "question": "Qual dinossauro voador é o mais famoso, embora tecnicamente não fosse um dinossauro?", "answers": ["Arqueoptérix", "Pterodáctilo", "Dimorfodonte", "Quetzalcoatlus"], "correct": 1 },
+      { "question": "Qual o nome do supercontinente que existia na época em que os primeiros dinossauros surgiram?", "answers": ["Gondwana", "Laurásia", "Pangeia", "Rodínia"], "correct": 2 },
+      { "question": "Qual dinossauro tinha três chifres no rosto para se defender?", "answers": ["Estegossauro", "Tiranossauro Rex", "Tricerátops", "Alossauro"], "correct": 2 },
+      { "question": "O Espinossauro é famoso por uma característica única nas costas. Qual é?", "answers": ["Placas ósseas", "Uma grande 'vela' ou barbatana", "Espinhos venenosos", "Uma concha"], "correct": 1 },
+      { "question": "Os dinossauros botavam ovos. Por isso, são classificados como:", "answers": ["Mamíferos", "Anfíbios", "Ovíparos", "Marsupiais"], "correct": 2 },
+      { "question": "Qual desses dinossauros era carnívoro?", "answers": ["Braquiossauro", "Parassaurolofo", "Tricerátops", "Alossauro"], "correct": 3 },
+      { "question": "A Era Mesozoica é dividida em três períodos. Qual deles veio primeiro?", "answers": ["Triássico", "Jurássico", "Cretáceo", "Todos ao mesmo tempo"], "correct": 0 },
+      { "question": "Qual dinossauro tinha um crânio em forma de cúpula, que possivelmente era usado em disputas de cabeçadas?", "answers": ["Paquicefalossauro", "Coritossauro", "Iguanodonte", "Diplodoco"], "correct": 0 },
+      { "question": "Qual dinossauro marinho gigante, embora não fosse um dinossauro, dominou os mares no período Cretáceo?", "answers": ["Plesiossauro", "Ictiossauro", "Mosasassauro", "Tubarão Megalodon"], "correct": 2 },
+      { "question": "De acordo com muitos cientistas, qual grupo de animais de hoje são os descendentes diretos dos dinossauros terópodes?", "answers": ["Lagartos", "Crocodilos", "Aves", "Cobras"], "correct": 2 },
+      { "question": "Em qual continente foram encontrados os primeiros fósseis de Iguanodonte, um dos primeiros dinossauros a ser descrito?", "answers": ["América do Sul", "África", "Europa", "Ásia"], "correct": 2 }
+    ]
+  },
+"dinossauros_dificil": {
+    "name": "Dinossauros (Paleontólogo Expert)",
+    "questions": [
+      { "question": "Qual clado de dinossauros se caracteriza pela estrutura da pélvis 'semelhante à de um pássaro', com o osso púbico apontado para trás?", "answers": ["Saurísquios", "Terópodes", "Ornitísquios", "Sauropodomorfos"], "correct": 2 },
+      { "question": "O que são 'gastrólitos', frequentemente encontrados em fósseis de dinossauros saurópodes?", "answers": ["Ovos fossilizados", "Pedras engolidas para ajudar na digestão", "Coprólitos (fezes fossilizadas)", "Marcas de dentes em ossos"], "correct": 1 },
+      { "question": "A 'Guerra dos Ossos' foi uma rivalidade acirrada no final do século XIX entre quais dois paleontólogos americanos?", "answers": ["Barnum Brown e Charles Sternberg", "Othniel Marsh e Edward Cope", "Roy Chapman Andrews e Paul Sereno", "John Ostrom e Robert Bakker"], "correct": 1 },
+      { "question": "O Archaeopteryx é um fóssil de transição crucial que demonstra a ligação evolutiva entre dinossauros terópodes e qual grupo de animais?", "answers": ["Mamíferos", "Pterossauros", "Aves", "Crocodilianos"], "correct": 2 },
+      { "question": "Qual o nome da abertura (fenestra) extra no crânio, localizada entre a órbita ocular e a narina, que é uma característica dos arcossauros, incluindo os dinossauros?", "answers": ["Fenestra Mandibular", "Fenestra Supratemporal", "Fenestra Antorbital", "Forame Magno"], "correct": 2 },
+      { "question": "O Therizinosaurus é um terópode bizarro conhecido por qual característica anatômica desproporcional?", "answers": ["Dentes minúsculos", "Pernas extremamente curtas", "Garras gigantes nas mãos", "Uma cabeça com chifres"], "correct": 2 },
+      { "question": "Qual famosa formação geológica na América do Norte é uma das fontes mais ricas de fósseis do Jurássico Superior?", "answers": ["Formação Hell Creek", "Formação Morrison", "Folhelho de Burgess", "Formação Green River"], "correct": 1 },
+      { "question": "O Argentinossauro, um dos maiores dinossauros conhecidos, pertence a qual grupo de saurópodes?", "answers": ["Diplodocídeos", "Braquiossaurídeos", "Titanossauros", "Camarasaurídeos"], "correct": 2 },
+      { "question": "Como é chamada a clavícula fundida (osso da sorte) encontrada em dinossauros terópodes, uma característica compartilhada com as aves modernas?", "answers": ["Esterno", "Pigoestilo", "Fúrcula", "Coracoide"], "correct": 2 },
+      { "question": "Qual o nome do primeiro dinossauro a ser descrito e nomeado cientificamente?", "answers": ["Iguanodonte", "Megalossauro", "Tricerátops", "Hadrossauro"], "correct": 1 },
+      { "question": "O que é a tafonomia no campo da paleontologia?", "answers": ["O estudo da classificação dos dinossauros", "O estudo do processo de fossilização, desde a morte até a descoberta", "O estudo de ovos e ninhos de dinossauros", "O estudo da biomecânica do movimento dos dinossauros"], "correct": 1 },
+      { "question": "O Giganotossauro, um carnívoro gigante, viveu na América do Sul e pertence a qual família de terópodes?", "answers": ["Tiranossaurídeos", "Abelissaurídeos", "Alossaurídeos", "Carcharodontossaurídeos"], "correct": 3 },
+      { "question": "Qual dinossauro 'bico-de-pato' (hadrossaurídeo) é famoso por sua crista oca, que poderia ser usada para vocalização?", "answers": ["Edmontossauro", "Maiassaura", "Parassaurolofo", "Lambeossauro"], "correct": 2 },
+      { "question": "Qual período da Era Mesozoica teve a maior diversidade de espécies de dinossauros?", "answers": ["Triássico Inferior", "Jurássico Médio", "Cretáceo Superior", "Todos tiveram diversidade similar"], "correct": 2 },
+      { "question": "Mary Anning, uma das pioneiras da paleontologia, foi famosa por descobrir importantes fósseis de répteis marinhos em qual localidade?", "answers": ["Lyme Regis, Inglaterra", "Solnhofen, Alemanha", "Deserto de Gobi, Mongólia", "Patagônia, Argentina"], "correct": 0 },
+      { "question": "O que significa o termo 'dinossauro saurísquio'?", "answers": ["'Lagarto com quadril de ave'", "'Lagarto com quadril de lagarto'", "'Lagarto com pés de ave'", "'Lagarto com chifres'"], "correct": 1 },
+      { "question": "Qual pequeno dinossauro, cujo nome significa 'ladrão rápido', é frequentemente (e incorretamente) retratado em filmes como sendo muito maior do que era?", "answers": ["Deinonico", "Utahraptor", "Velociraptor", "Troodonte"], "correct": 2 },
+      { "question": "Os fósseis de 'Sue', um dos mais completos T. rex já encontrados, estão em exibição em qual museu?", "answers": ["Museu Americano de História Natural (Nova York)", "Museu Field de História Natural (Chicago)", "Museu Nacional de História Natural (Washington, D.C.)", "Museu de História Natural (Londres)"], "correct": 1 },
+      { "question": "O que são 'icnofósseis'?", "answers": ["Fósseis de plantas", "Fósseis de dentes", "Fósseis de vestígios, como pegadas e tocas", "Microfósseis"], "correct": 2 },
+      { "question": "Qual o nome do impacto que marca a fronteira K-Pg, associado à extinção dos dinossauros?", "answers": ["Cratera de Vredefort", "Cratera da Baía de Chesapeake", "Cratera de Chicxulub", "Cratera de Manicouagan"], "correct": 2 }
+    ]
+  },
+ "franquia_jurassica": {
+    "name": "Franquia Jurássica",
+    "questions": [
+      { "question": "No primeiro 'Jurassic Park', qual tipo de DNA foi usado para preencher as lacunas nas sequências de genoma dos dinossauros?", "answers": ["DNA de Pássaro", "DNA de Lagarto", "DNA de Sapo", "DNA de Crocodilo"], "correct": 2 },
+      { "question": "Qual é o nome do matemático especialista em Teoria do Caos que é convidado para avaliar o parque?", "answers": ["Dr. Alan Grant", "John Hammond", "Robert Muldoon", "Dr. Ian Malcolm"], "correct": 3 },
+      { "question": "Em 'O Mundo Perdido: Jurassic Park', a expedição da InGen vai para qual ilha, conhecida como 'Sítio B'?", "answers": ["Ilha Nublar", "Ilha Sorna", "Ilha das Cinco Mortes", "Ilha Pena"], "correct": 1 },
+      { "question": "Qual é o nome da principal velociraptor treinada por Owen Grady em 'Jurassic World'?", "answers": ["Delta", "Echo", "Charlie", "Blue"], "correct": 3 },
+      { "question": "Qual o nome do primeiro dinossauro híbrido criado pela InGen, que escapa e causa o caos em 'Jurassic World'?", "answers": ["Indoraptor", "Indominus Rex", "Ultimasaurus", "Spinosaurus Rex"], "correct": 1 },
+      { "question": "Qual a frase icônica dita pelo Dr. Ian Malcolm que resume a principal falha do parque?", "answers": ["'A vida não pode ser contida'", "'Bem-vindos ao Jurassic Park'", "'A vida encontra um meio'", "'Segurem seus traseiros'"], "correct": 2 },
+      { "question": "Em 'Jurassic Park III', qual dinossauro carnívoro gigante derrota um Tiranossauro Rex em uma luta?", "answers": ["Giganotossauro", "Alossauro", "Carcharodontossauro", "Espinossauro"], "correct": 3 },
+      { "question": "No filme original, qual dinossauro é o primeiro a ser visto em sua forma completa pelos visitantes do parque?", "answers": ["Tricerátops", "Braquiossauro", "Tiranossauro Rex", "Velociraptor"], "correct": 1 },
+      { "question": "Em 'Jurassic World: Reino Ameaçado', o que ameaça destruir todos os dinossauros restantes na Ilha Nublar?", "answers": ["Um furacão", "Uma erupção vulcânica", "Uma nova era do gelo", "Uma doença"], "correct": 1 },
+      { "question": "Qual o nome da empresa de bioengenharia fundada por John Hammond?", "answers": ["Masrani Global", "BioSyn", "InGen", "DinoTech"], "correct": 2 },
+      { "question": "Qual item Dennis Nedry usa para contrabandear os embriões de dinossauro para fora do parque?", "answers": ["Uma garrafa térmica", "Uma lata de creme de barbear", "Uma maleta com fundo falso", "Um pacote de salgadinhos"], "correct": 1 },
+      { "question": "Qual o nome do dinossauro híbrido e extremamente perigoso que é o principal antagonista em 'Jurassic World: Reino Ameaçado'?", "answers": ["Indominus Rex", "Scorpios Rex", "Indoraptor", "Allosinosaurus"], "correct": 2 },
+      { "question": "Em 'Jurassic World: Domínio', os dinossauros estão vivendo ao lado dos humanos em qual continente principal?", "answers": ["África", "Austrália", "América do Sul", "Em todo o mundo"], "correct": 3 },
+      { "question": "Qual personagem do filme original retorna para um papel principal em 'Jurassic Park III'?", "answers": ["Ian Malcolm", "Ellie Sattler", "Alan Grant", "John Hammond"], "correct": 2 },
+      { "question": "No primeiro filme, o T. rex escapa de seu cercado após o quê?", "answers": ["Um terremoto", "Uma falha no sistema elétrico", "Uma tempestade tropical", "Os raptores o libertam"], "correct": 1 },
+      { "question": "Em 'O Mundo Perdido', o que a equipe de Ian Malcolm tenta impedir que a InGen faça?", "answers": ["Clonar novos dinossauros", "Capturar dinossauros e levá-los para o continente", "Destruir a Ilha Sorna", "Criar dinossauros híbridos"], "correct": 1 },
+      { "question": "Qual dinossauro pequeno e venenoso ataca Dennis Nedry em seu jipe?", "answers": ["Compsognato", "Dilofossauro", "Procompsognato", "Celófise"], "correct": 1 },
+      { "question": "Qual é a profissão de Owen Grady em 'Jurassic World'?", "answers": ["Paleontólogo", "Geneticista", "Treinador de animais (Velociraptors)", "Chefe de segurança"], "correct": 2 },
+      { "question": "Em qual local o Indoraptor é leiloado em 'Jurassic World: Reino Ameaçado'?", "answers": ["Em um cassino de Las Vegas", "Na Mansão Lockwood", "Na sede da Masrani Global", "Em uma base militar secreta"], "correct": 1 },
+      { "question": "Qual empresa rival da InGen, liderada por Lewis Dodgson, desempenha um papel importante em 'Jurassic Park: Domínio'?", "answers": ["DinoGuard", "Apex Cybernetics", "BioSyn", "GenomaX"], "correct": 2 }
+    ]
+  },
         };
 
         const lobbyScreen = document.getElementById('lobby-screen');
