@@ -1336,6 +1336,131 @@
       { "question": "Qual o nome do biólogo que, junto com Francis Crick, propôs a estrutura de dupla hélice para o DNA?", "answers": ["Rosalind Franklin", "Maurice Wilkins", "Linus Pauling", "James Watson"], "correct": 3 }
     ]
   },
+"curiosidades_hard": {
+    "name": "Curiosidades (Hard)",
+    "questions": [
+      { "question": "Qual animal, na verdade, aparece no logotipo do navegador Firefox?", "answers": ["Uma raposa-vermelha", "Um panda-vermelho", "Um lobo-guará", "Um cachorro-vinagre"], "correct": 1 },
+      { "question": "Qual é a única parte do corpo humano que não recebe suprimento de sangue?", "answers": ["A cartilagem da orelha", "As unhas", "O cristalino do olho", "A córnea"], "correct": 3 },
+      { "question": "Originalmente, qual era a cor da roupa do Papai Noel antes da popularização pela campanha da Coca-Cola?", "answers": ["Azul", "Branco", "Verde", "Marrom"], "correct": 2 },
+      { "question": "Qual o nome do fenômeno que faz com que, após um incêndio florestal, certas sementes germinem?", "answers": ["Pirofitismo", "Hidrofitismo", "Xerofitismo", "Fototropismo"], "correct": 0 },
+      { "question": "Qual o nome do medo irracional de palhaços?", "answers": ["Acrofobia", "Agorafobia", "Coulrofobia", "Aracnofobia"], "correct": 2 },
+      { "question": "Quantos narizes tem uma lesma?", "answers": ["Nenhum", "Um", "Dois", "Quatro"], "correct": 3 },
+      { "question": "Qual era a principal função das pirâmides do Egito?", "answers": ["Observatórios astronômicos", "Templos de adoração", "Tumbas para os faraós", "Palácios do governo"], "correct": 2 },
+      { "question": "O mel é um dos poucos alimentos que não estraga. Qual sua principal propriedade conservante?", "answers": ["Alta acidez e baixo teor de água", "Presença de pólen", "Textura viscosa", "Cor escura"], "correct": 0 },
+      { "question": "Qual país tem o maior número de fusos horários (incluindo territórios ultramarinos)?", "answers": ["Rússia", "Canadá", "Estados Unidos", "França"], "correct": 3 },
+      { "question": "Onde, no corpo humano, se localiza o menor osso, o estribo?", "answers": ["No nariz", "Na mão", "No pé", "No ouvido"], "correct": 3 },
+      { "question": "Qual o nome da cor específica do céu em um dia sem nuvens?", "answers": ["Azul celeste", "Azul ciano", "Azul Rayleigh", "Não tem nome específico"], "correct": 2 },
+      { "question": "Qual é o animal nacional oficial da Escócia?", "answers": ["Águia-real", "Cervo-vermelho", "Gato-escocês", "Unicórnio"], "correct": 3 },
+      { "question": "Qual era o nome original da cidade de Nova Iorque?", "answers": ["Nova Amsterdã", "Nova Londres", "Nova Paris", "Nova Roma"], "correct": 0 },
+      { "question": "De qual material os Óscares da Academia são feitos principalmente?", "answers": ["Ouro maciço", "Prata banhada a ouro", "Bronze banhado a ouro", "Latão banhado a ouro"], "correct": 2 },
+      { "question": "Qual fruta é, na verdade, uma baga (berry) do ponto de vista botânico?", "answers": ["Morango", "Amora", "Framboesa", "Banana"], "correct": 3 },
+      { "question": "Quanto tempo a luz do Sol leva para chegar à Terra?", "answers": ["Exatamente 8 minutos", "Aproximadamente 8 minutos e 20 segundos", "9 minutos e 10 segundos", "7 minutos e 40 segundos"], "correct": 1 },
+      { "question": "A palavra 'abacate' vem de uma língua asteca (Nahuatl) e significava originalmente...", "answers": ["Fruto verde", "Pera-de-jacaré", "Testículo", "Manteiga da floresta"], "correct": 2 },
+      { "question": "Qual a única bandeira nacional do mundo que não é retangular ou quadrada?", "answers": ["Suíça", "Vaticano", "Nepal", "Catar"], "correct": 2 },
+      { "question": "O que os camelos armazenam em suas corcovas?", "answers": ["Água", "Gordura", "Músculo", "Areia"], "correct": 1 },
+      { "question": "Qual o nome da unidade de medida para o nível de picância das pimentas?", "answers": ["Escala Richter", "Escala Scoville", "Escala Saffir-Simpson", "Escala Mercalli"], "correct": 1 }
+    ]
+  },
+  "curiosidades_expert": {
+    "name": "Curiosidades (Expert)",
+    "questions": [
+      { "question": "Qual é a única letra do alfabeto que não aparece no nome de nenhum estado dos EUA?", "answers": ["Z", "J", "X", "Q"], "correct": 3 },
+      { "question": "Qual era a profissão de Guichard, o inventor da guilhotina?", "answers": ["Médico", "Carpinteiro", "Ferreiro", "Nobre"], "correct": 0 },
+      { "question": "O som que um pato faz (quack) é um dos únicos sons da natureza que, por uma peculiaridade acústica, não produz o quê?", "answers": ["Eco", "Vibração", "Ressonância", "Onda de choque"], "correct": 0 },
+      { "question": "Qual o nome da condição médica que faz com que a urina de uma pessoa cheire a xarope de ácer (maple syrup)?", "answers": ["Fenilcetonúria", "Doença de Wilson", "Doença da Urina de Xarope de Bordo", "Alcaptonúria"], "correct": 2 },
+      { "question": "A hidrante de incêndio, como a conhecemos, teve sua patente perdida em qual evento histórico?", "answers": ["Grande Incêndio de Londres", "Incêndio no escritório de patentes de Washington em 1836", "Guerra Civil Americana", "Terremoto de São Francisco de 1906"], "correct": 1 },
+      { "question": "No baralho de cartas padrão, qual rei é o único que não tem bigode?", "answers": ["Rei de Espadas", "Rei de Copas", "Rei de Ouros", "Rei de Paus"], "correct": 1 },
+      { "question": "Como se chama o ponto no céu diretamente abaixo de um observador (o oposto do zênite)?", "answers": ["Nadir", "Ápice", "Azimute", "Perigeu"], "correct": 0 },
+      { "question": "Qual animal tem o maior cérebro em proporção ao seu corpo?", "answers": ["Ser humano", "Golfinho", "Elefante", "Formiga"], "correct": 3 },
+      { "question": "O efeito de 'olhos vermelhos' em fotografias é causado pelo flash refletindo em qual parte do olho?", "answers": ["Na retina", "Na íris", "Nos vasos sanguíneos da coroide", "No nervo óptico"], "correct": 2 },
+      { "question": "Quantos anos durou a 'Guerra dos Cem Anos' entre a Inglaterra e a França?", "answers": ["99 anos", "100 anos", "116 anos", "125 anos"], "correct": 2 },
+      { "question": "Qual o nome do primeiro filme a usar um som de descarga de vaso sanitário?", "answers": ["O Iluminado", "Psicose", "Laranja Mecânica", "O Poderoso Chefão"], "correct": 1 },
+      { "question": "Qual animal produz o som mais alto do planeta Terra?", "answers": ["Baleia-azul", "Elefante", "Bugio", "Camarão-pistola"], "correct": 3 },
+      { "question": "Como se chama o estudo de bandeiras?", "answers": ["Numismática", "Filatelia", "Vexilologia", "Heráldica"], "correct": 2 },
+      { "question": "No manuscrito original de 'Alice no País das Maravilhas', o que o Chapeleiro Maluco vende?", "answers": ["Chá", "Relógios", "Chapéus", "Tempo"], "correct": 3 },
+      { "question": "Qual era o nome do supercontinente que existiu antes da Pangeia?", "answers": ["Gondwana", "Laurásia", "Rodínia", "Pannotia"], "correct": 2 },
+      { "question": "Qual planeta do nosso sistema solar tem o dia mais longo?", "answers": ["Júpiter", "Marte", "Vênus", "Mercúrio"], "correct": 2 },
+      { "question": "O sinal de S.O.S. tornou-se padrão em 1908. O que as letras significam?", "answers": ["Save Our Ship (Salvem Nosso Navio)", "Save Our Souls (Salvem Nossas Almas)", "Send Out Succour (Enviem Socorro)", "Absolutamente nada"], "correct": 3 },
+      { "question": "Qual o nome do espaço entre as sobrancelhas?", "answers": ["Filtro", "Glabela", "Trago", "Hélix"], "correct": 1 },
+      { "question": "O primeiro produto a ter um código de barras escaneado em um supermercado foi o quê?", "answers": ["Uma lata de sopa", "Um pacote de chicletes", "Uma garrafa de Coca-Cola", "Uma caixa de cereais"], "correct": 1 },
+      { "question": "O cérebro de Albert Einstein foi preservado após sua morte. Uma característica notável era a ausência de uma fissura em qual lobo cerebral?", "answers": ["Lobo frontal", "Lobo temporal", "Lobo parietal", "Lobo occipital"], "correct": 2 }
+    ]
+  },
+  "citacoes_famosas": {
+    "name": "Citações Famosas",
+    "questions": [
+      { "question": "Quem é o autor da famosa citação filosófica 'Penso, logo existo'?", "answers": ["Sócrates", "Platão", "Aristóteles", "René Descartes"], "correct": 3 },
+      { "question": "A frase 'Olho por olho, e o mundo acabará cego' é frequentemente atribuída a qual líder pacifista?", "answers": ["Nelson Mandela", "Martin Luther King Jr.", "Mahatma Gandhi", "Dalai Lama"], "correct": 2 },
+      { "question": "Qual dramaturgo inglês escreveu a célebre frase 'Ser ou não ser, eis a questão'?", "answers": ["Christopher Marlowe", "William Shakespeare", "Ben Jonson", "George Bernard Shaw"], "correct": 1 },
+      { "question": "A afirmação 'O homem nasce livre, e por toda a parte encontra-se a ferros' é de qual filósofo iluminista?", "answers": ["Voltaire", "Montesquieu", "Jean-Jacques Rousseau", "Diderot"], "correct": 2 },
+      { "question": "Qual cientista disse 'Se eu vi mais longe, foi por estar sobre ombros de gigantes'?", "answers": ["Albert Einstein", "Galileu Galilei", "Isaac Newton", "Nikola Tesla"], "correct": 2 },
+      { "question": "A citação 'A única coisa que devemos temer é o próprio medo' foi dita por qual presidente americano em seu discurso de posse?", "answers": ["Abraham Lincoln", "Theodore Roosevelt", "Franklin D. Roosevelt", "John F. Kennedy"], "correct": 2 },
+      { "question": "'Vim, vi, venci' (Veni, vidi, vici) é uma frase célebre atribuída a qual líder militar romano?", "answers": ["Augusto", "Júlio César", "Marco Antônio", "Nero"], "correct": 1 },
+      { "question": "Quem disse 'A religião é o ópio do povo'?", "answers": ["Friedrich Nietzsche", "Sigmund Freud", "Karl Marx", "Vladimir Lenin"], "correct": 2 },
+      { "question": "A frase 'Navegar é preciso, viver não é preciso' foi popularizada na língua portuguesa por qual poeta?", "answers": ["Luís de Camões", "Carlos Drummond de Andrade", "Fernando Pessoa", "Vinicius de Moraes"], "correct": 2 },
+      { "question": "Qual figura histórica declarou 'O Estado sou eu' (L'État, c'est moi)?", "answers": ["Napoleão Bonaparte", "Luís XIV", "Cardeal Richelieu", "Carlos Magno"], "correct": 1 },
+      { "question": "A frase 'Que a Força esteja com você' é um bordão de qual famosa franquia de filmes?", "answers": ["Star Trek", "O Senhor dos Anéis", "Harry Potter", "Star Wars"], "correct": 3 },
+      { "question": "Quem é o autor da citação 'Tudo o que sei é que nada sei'?", "answers": ["Platão", "Aristóteles", "Sócrates", "Diógenes"], "correct": 2 },
+      { "question": "A frase 'Os fins justificam os meios' é uma interpretação popular das ideias de qual pensador renascentista?", "answers": ["Erasmo de Roterdã", "Thomas More", "Nicolau Maquiavel", "Dante Alighieri"], "correct": 2 },
+      { "question": "Qual escritor irlandês é famoso pela citação 'Posso resistir a tudo, exceto à tentação'?", "answers": ["James Joyce", "George Bernard Shaw", "Oscar Wilde", "Samuel Beckett"], "correct": 2 },
+      { "question": "A frase 'Um pequeno passo para um homem, um salto gigante para a humanidade' foi dita por quem?", "answers": ["Yuri Gagarin", "John Glenn", "Buzz Aldrin", "Neil Armstrong"], "correct": 3 },
+      { "question": "Quem disse a famosa frase 'Loucura é querer resultados diferentes fazendo tudo exatamente igual'?", "answers": ["Benjamin Franklin", "Thomas Edison", "Albert Einstein", "Sigmund Freud"], "correct": 2 },
+      { "question": "A qual primeiro-ministro britânico é atribuída a frase 'Nunca, no campo dos conflitos humanos, tantos deveram tanto a tão poucos'?", "answers": ["Neville Chamberlain", "Clement Attlee", "Winston Churchill", "Margaret Thatcher"], "correct": 2 },
+      { "question": "Qual escritor brasileiro é o autor da frase 'A saudade é a prova de que o passado valeu a pena'?", "answers": ["Machado de Assis", "Carlos Drummond de Andrade", "Clarice Lispector", "Padre Fábio de Melo"], "correct": 3 },
+      { "question": "A frase 'A imaginação é mais importante que o conhecimento' é de autoria de qual gênio da física?", "answers": ["Stephen Hawking", "Richard Feynman", "Niels Bohr", "Albert Einstein"], "correct": 3 },
+      { "question": "Qual pintor é famoso por ter dito 'Eu pinto os meus sonhos, não a minha realidade'?", "answers": ["Salvador Dalí", "Frida Kahlo", "Pablo Picasso", "Vincent van Gogh"], "correct": 1 }
+    ]
+  },
+  "historia_brasil_2": {
+    "name": "História do Brasil 2",
+    "questions": [
+      { "question": "Qual foi a maior revolta de escravizados do Brasil, ocorrida em Salvador em 1835 e liderada por muçulmanos?", "answers": ["Balaiada", "Sabinada", "Revolta dos Malês", "Cabanagem"], "correct": 2 },
+      { "question": "Como ficou conhecida a expedição liderada por militares que percorreu mais de 25.000 km pelo interior do Brasil entre 1925 e 1927?", "answers": ["Guerra de Canudos", "Coluna Prestes", "Guerra do Contestado", "Revolta da Chibata"], "correct": 1 },
+      { "question": "Qual o nome do plano econômico do governo de José Sarney que congelou preços e criou uma nova moeda, o Cruzado?", "answers": ["Plano Real", "Plano Bresser", "Plano Verão", "Plano Cruzado"], "correct": 3 },
+      { "question": "A Guerra dos Farrapos, a mais longa revolta brasileira, resultou na proclamação de qual república independente?", "answers": ["República de Canudos", "República de Palmares", "República Rio-Grandense", "República de Piratini"], "correct": 2 },
+      { "question": "O lema 'É proibido proibir' marcou qual movimento cultural e de contracultura no Brasil no final dos anos 60?", "answers": ["Bossa Nova", "Jovem Guarda", "Tropicália", "Cinema Novo"], "correct": 2 },
+      { "question": "Qual era o principal objetivo das Entradas e Bandeiras no período colonial?", "answers": ["Catequizar indígenas", "Demarcar fronteiras", "Capturar indígenas e procurar metais preciosos", "Fundar cidades no litoral"], "correct": 2 },
+      { "question": "Quem foi o líder da Revolta da Chibata, que lutou contra os castigos corporais na Marinha do Brasil?", "answers": ["Zumbi dos Palmares", "Tiradentes", "Antônio Conselheiro", "João Cândido"], "correct": 3 },
+      { "question": "A criação de qual empresa estatal, em 1953, foi resultado da campanha nacional 'O petróleo é nosso'?", "answers": ["Vale do Rio Doce", "Eletrobras", "Petrobras", "Embraer"], "correct": 2 },
+      { "question": "Qual batalha, em 1648 e 1649, foi decisiva para a expulsão dos holandeses de Pernambuco?", "answers": ["Batalha Naval do Riachuelo", "Batalha dos Guararapes", "Batalha do Monte das Tabordas", "Batalha do Jenipapo"], "correct": 1 },
+      { "question": "O que foi o 'Ciclo da Borracha' no final do século XIX e início do XX?", "answers": ["A produção de pneus para a indústria automobilística", "A extração de látex na Amazônia para exportação", "A invenção da borracha sintética", "Uma crise na indústria calçadista"], "correct": 1 },
+      { "question": "Qual o nome da primeira constituição republicana do Brasil, promulgada em 1891?", "answers": ["Constituição da Mandioca", "Constituição Cidadã", "Constituição de 1891", "Constituição do Império"], "correct": 2 },
+      { "question": "A 'Noite da Agonia' foi o evento em que Dom Pedro I dissolveu qual órgão político em 1823?", "answers": ["O Senado", "A Câmara dos Deputados", "O Conselho de Estado", "A Assembleia Constituinte"], "correct": 3 },
+      { "question": "Qual o nome do movimento messiânico liderado por Antônio Conselheiro no sertão da Bahia?", "answers": ["Guerra do Contestado", "Cangaço", "Guerra de Canudos", "Sedição de Juazeiro"], "correct": 2 },
+      { "question": "O que foi a 'Política do Café com Leite' durante a República Velha?", "answers": ["Um incentivo à produção de laticínios", "Um acordo entre as oligarquias de SP e MG para alternar na presidência", "A criação de cafeterias estatais", "Uma lei que proibia a exportação de café e leite"], "correct": 1 },
+      { "question": "A Bossa Nova, movimento musical brasileiro, surgiu em qual cidade no final da década de 1950?", "answers": ["São Paulo", "Salvador", "Belo Horizonte", "Rio de Janeiro"], "correct": 3 },
+      { "question": "Qual o nome do Tratado de 1750 que redefiniu as fronteiras entre as colônias portuguesas e espanholas na América do Sul?", "answers": ["Tratado de Tordesilhas", "Tratado de Madri", "Tratado de Santo Ildefonso", "Tratado de Utrecht"], "correct": 1 },
+      { "question": "A Inconfidência Carioca de 1794, diferentemente da Mineira, foi inspirada por qual evento internacional?", "answers": ["Independência dos EUA", "Revolução Francesa", "Revolução Industrial", "Iluminismo"], "correct": 1 },
+      { "question": "Quem foi o único presidente a renunciar na história do Brasil?", "answers": ["Getúlio Vargas", "Fernando Collor", "Jânio Quadros", "João Goulart"], "correct": 2 },
+      { "question": "Qual foi a 'Lei de Terras' de 1850?", "answers": ["Uma lei que distribuía terras aos imigrantes", "A primeira lei de reforma agrária", "Uma lei que proibia a posse de terra por posse, exigindo a compra", "Uma lei que demarcava terras indígenas"], "correct": 2 },
+      { "question": "O que foi o 'Milagre Econômico' (1968-1973)?", "answers": ["Um período de inflação zero", "Um período de alto crescimento do PIB durante a ditadura militar", "A descoberta de grandes reservas de petróleo", "O perdão da dívida externa brasileira"], "correct": 1 }
+    ]
+  },
+  "ciencias_tecnologia_2": {
+    "name": "Ciências e Tecnologia 2",
+    "questions": [
+      { "question": "O que é CRISPR-Cas9, uma das mais importantes descobertas da biologia molecular recente?", "answers": ["Um tipo de telescópio espacial", "Uma técnica de edição de genes", "Um novo supercondutor", "Um algoritmo de inteligência artificial"], "correct": 1 },
+      { "question": "No Modelo Padrão da física de partículas, qual bóson é responsável por dar massa às outras partículas?", "answers": ["Fóton", "Glúon", "Bóson de Higgs", "Bóson W"], "correct": 2 },
+      { "question": "Como se chama a camada mais externa da atmosfera do Sol, visível durante um eclipse total?", "answers": ["Cromosfera", "Fotosfera", "Corona", "Zona de convecção"], "correct": 2 },
+      { "question": "O que o Teste de Turing, proposto por Alan Turing, se propõe a avaliar?", "answers": ["A velocidade de um computador", "A capacidade de uma máquina de exibir comportamento inteligente equivalente a um humano", "A segurança de um sistema criptográfico", "A eficiência de um algoritmo"], "correct": 1 },
+      { "question": "Grafeno, um material revolucionário, é uma estrutura bidimensional composta por átomos de qual elemento?", "answers": ["Silício", "Carbono", "Titânio", "Ouro"], "correct": 1 },
+      { "question": "Qual é a função principal do ARN Mensageiro (mRNA) na célula?", "answers": ["Armazenar informação genética no núcleo", "Transportar aminoácidos para o ribossomo", "Levar uma cópia de um gene do DNA para o ribossomo para a síntese de proteínas", "Catalisar reações bioquímicas"], "correct": 2 },
+      { "question": "O que é um 'exoplaneta'?", "answers": ["Um planeta anão no nosso sistema solar", "Um planeta que orbita uma estrela fora do nosso sistema solar", "Uma lua com potencial para abrigar vida", "Um planeta composto inteiramente de gás"], "correct": 1 },
+      { "question": "Na química orgânica, qual é o nome do grupo funcional -COOH?", "answers": ["Álcool", "Aldeído", "Cetona", "Ácido carboxílico"], "correct": 3 },
+      { "question": "O que é a 'computação quântica'?", "answers": ["Um tipo de supercomputador mais rápido", "Uma forma de computação que usa os princípios da mecânica quântica, como sobreposição e emaranhamento", "Um computador que funciona na velocidade da luz", "Uma rede neural que imita o cérebro humano"], "correct": 1 },
+      { "question": "Qual o nome do processo pelo qual um buraco negro emite radiação e perde massa ao longo do tempo, teorizado por Stephen Hawking?", "answers": ["Radiação de corpo negro", "Radiação Hawking", "Efeito de lente gravitacional", "Singularidade nua"], "correct": 1 },
+      { "question": "O que é o 'Efeito Peltier' na termodinâmica?", "answers": ["A emissão de luz por um material aquecido", "A geração de eletricidade a partir do calor", "O aquecimento ou resfriamento de uma junção de dois materiais diferentes quando uma corrente elétrica passa por ela", "A resistência elétrica de um material a zero"], "correct": 2 },
+      { "question": "Qual o nome da sonda espacial lançada em 1977 que carrega o 'Golden Record', um disco com sons e imagens da Terra?", "answers": ["Pioneer 10", "Hubble", "Voyager 1", "Cassini"], "correct": 2 },
+      { "question": "O que são 'extremófilos'?", "answers": ["Organismos que vivem em condições ambientais extremas, como altas temperaturas ou pressão", "Partículas subatômicas instáveis", "Um tipo de alga tóxica", "Espécies de plantas carnívoras raras"], "correct": 0 },
+      { "question": "Qual o princípio por trás da tecnologia de Fibra Óptica para transmissão de dados?", "answers": ["Refração total da luz", "Difração da luz", "Reflexão interna total da luz", "Polarização da luz"], "correct": 2 },
+      { "question": "Na geologia, como é chamada a camada semi-líquida do manto superior da Terra sobre a qual as placas tectônicas se movem?", "answers": ["Litosfera", "Astenosfera", "Mesosfera", "Endosfera"], "correct": 1 },
+      { "question": "O que é o 'Grande Colisor de Hádrons' (LHC)?", "answers": ["O maior telescópio do mundo", "Uma estação espacial internacional", "O maior acelerador de partículas do mundo, localizado no CERN", "Um reator de fusão nuclear experimental"], "correct": 2 },
+      { "question": "Qual o nome do paradoxo da mecânica quântica que envolve um gato que pode estar simultaneamente vivo e morto?", "answers": ["Paradoxo de Fermi", "Paradoxo dos Gêmeos", "Paradoxo de Schrödinger", "Paradoxo EPR"], "correct": 2 },
+      { "question": "O que a Lei de Moore, observada na indústria de semicondutores, previa?", "answers": ["Que a velocidade da internet dobraria a cada dois anos", "Que o número de transistores em um chip dobraria aproximadamente a cada dois anos", "Que o custo de armazenamento de dados cairia pela metade a cada ano", "Que a inteligência artificial superaria a humana até 2029"], "correct": 1 },
+      { "question": "O que são 'micorrizas'?", "answers": ["Um tipo de bactéria do solo", "Uma associação simbiótica entre fungos e raízes de plantas", "Organelas celulares responsáveis pela respiração", "Vírus que infectam fungos"], "correct": 1 },
+      { "question": "Qual tecnologia, base do Bitcoin e outras criptomoedas, é um registro de dados distribuído e imutável?", "answers": ["Inteligência Artificial", "Computação em Nuvem", "Internet das Coisas", "Blockchain"], "correct": 3 }
+    ]
+  },
         };
 
         const lobbyScreen = document.getElementById('lobby-screen');
