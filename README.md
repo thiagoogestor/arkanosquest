@@ -1536,6 +1536,56 @@
       { "question": "A que dupla de música eletrônica pertence esta capa com os dois membros usando capacetes espaciais?", "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/8/82/Daft_Punk_-_Random_Access_Memories.jpg", "answers": ["Justice", "The Chemical Brothers", "Daft Punk", "Air"], "correct": 2 }
     ]
   },
+  "criancas_mundo_magico": {
+    "name": "Mundo Mágico e Divertido",
+    "questions": [
+      { "question": "Qual princesa da Disney perdeu seu sapatinho de cristal em um baile?", "answers": ["Bela", "Ariel", "Cinderela", "Jasmine"], "correct": 2 },
+      { "question": "Na história dos Três Porquinhos, qual material o lobo não conseguiu derrubar com seu sopro?", "answers": ["Palha", "Madeira", "Tijolos", "Algodão"], "correct": 2 },
+      { "question": "Qual é o nome do boneco de neve falante do filme 'Frozen'?", "answers": ["Sven", "Kristoff", "Hans", "Olaf"], "correct": 3 },
+      { "question": "Qual super-herói usa um martelo mágico e vem de um lugar chamado Asgard?", "answers": ["Hulk", "Homem de Ferro", "Capitão América", "Thor"], "correct": 3 },
+      { "question": "Em 'Procurando Nemo', qual é a cor principal do peixinho Nemo?", "answers": ["Azul e amarelo", "Laranja e branco", "Verde e roxo", "Todo preto"], "correct": 1 },
+      { "question": "Qual personagem dos contos de fada tem um nariz que cresce quando ele mente?", "answers": ["Peter Pan", "Pinóquio", "Aladdin", "Gepeto"], "correct": 1 },
+      { "question": "Qual o nome do melhor amigo de Woody em 'Toy Story'?", "answers": ["Buzz Lightyear", "Sr. Cabeça de Batata", "Slinky", "Rex"], "correct": 0 },
+      { "question": "Na história da Chapeuzinho Vermelho, quem estava na cama da vovó disfarçado?", "answers": ["Um caçador", "Um urso", "O Lobo Mau", "Um lenhador"], "correct": 2 },
+      { "question": "Qual o nome da equipe de cachorrinhos heróis que ajuda a cidade da Baía da Aventura?", "answers": ["Super Cães", "Patrulha Canina", "Esquadrão Pet", "Amigos da Aventura"], "correct": 1 },
+      { "question": "Qual o nome da pequena sereia que sonhava em ter pernas para viver na terra?", "answers": ["Adella", "Aquata", "Andrina", "Ariel"], "correct": 3 },
+      { "question": "Qual é a comida favorita do Garfield?", "answers": ["Pizza", "Hambúrguer", "Lasanha", "Peixe"], "correct": 2 },
+      { "question": "Que animal mágico tem um chifre na testa e costuma ser branco?", "answers": ["Dragão", "Unicórnio", "Grifo", "Pégaso"], "correct": 1 },
+      { "question": "No filme 'O Rei Leão', qual é o nome do filhote de leão que é o personagem principal?", "answers": ["Mufasa", "Scar", "Simba", "Zazu"], "correct": 2 },
+      { "question": "Qual o nome do menino que nunca cresce e vive na Terra do Nunca?", "answers": ["Capitão Gancho", "Peter Pan", "Smee", "João"], "correct": 1 },
+      { "question": "Qual o poder da super-heroína Mulher-Maravilha?", "answers": ["Soltar teias", "Super força e agilidade", "Ficar invisível", "Controlar o gelo"], "correct": 1 },
+      { "question": "Qual o nome do ogro verde que vive em um pântano e é amigo de um burro falante?", "answers": ["Fiona", "Lord Farquaad", "Gato de Botas", "Shrek"], "correct": 3 },
+      { "question": "Qual o nome da irmã de Elsa no filme 'Frozen'?", "answers": ["Moana", "Anna", "Merida", "Rapunzel"], "correct": 1 },
+      { "question": "Qual o nome do herói que usa uma roupa de aranha e solta teias?", "answers": ["Batman", "Superman", "Homem-Aranha", "Flash"], "correct": 2 },
+      { "question": "Na história 'João e o Pé de Feijão', o que João troca pelas sementes de feijão?", "answers": ["Um saco de moedas", "Sua casa", "Uma galinha", "Sua vaca"], "correct": 3 },
+      { "question": "Qual o nome da porquinha rosa mais famosa dos desenhos animados?", "answers": ["Galinha Pintadinha", "Mônica", "Peppa Pig", "Pocoyo"], "correct": 2 }
+    ]
+  },
+  "criancas_pequeno_curioso": {
+    "name": "Descobertas do Pequeno Curioso",
+    "questions": [
+      { "question": "Qual é o animal mais alto do mundo?", "answers": ["Elefante", "Girafa", "Baleia", "Dinossauro"], "correct": 1 },
+      { "question": "Qual é a estrela que aparece durante o dia e aquece o nosso planeta?", "answers": ["Lua", "Marte", "Sol", "Cometa"], "correct": 2 },
+      { "question": "Quantos continentes existem no planeta Terra?", "answers": ["Três", "Cinco", "Sete", "Dez"], "correct": 2 },
+      { "question": "Qual animal é conhecido como o 'Rei da Selva'?", "answers": ["Tigre", "Urso", "Macaco", "Leão"], "correct": 3 },
+      { "question": "Qual a cor que obtemos quando misturamos o amarelo com o azul?", "answers": ["Vermelho", "Laranja", "Roxo", "Verde"], "correct": 3 },
+      { "question": "Qual órgão do nosso corpo é responsável por bombear o sangue para todo lugar?", "answers": ["Cérebro", "Pulmão", "Coração", "Estômago"], "correct": 2 },
+      { "question": "Como se chama a casa das abelhas?", "answers": ["Ninho", "Toca", "Colmeia", "Formigueiro"], "correct": 2 },
+      { "question": "Qual dinossauro é famoso por ser um caçador gigante com braços bem curtinhos?", "answers": ["Tiranossauro Rex", "Tricerátops", "Braquiossauro", "Velociraptor"], "correct": 0 },
+      { "question": "O que as plantas usam para produzir seu próprio alimento com a luz do sol?", "answers": ["Chuva", "Vento", "Fotossíntese", "Terra"], "correct": 2 },
+      { "question": "Qual é o maior oceano do nosso planeta?", "answers": ["Atlântico", "Índico", "Pacífico", "Ártico"], "correct": 2 },
+      { "question": "Quantas patas tem uma aranha?", "answers": ["Quatro", "Seis", "Oito", "Dez"], "correct": 2 },
+      { "question": "Qual planeta é conhecido como 'Planeta Vermelho'?", "answers": ["Vênus", "Júpiter", "Saturno", "Marte"], "correct": 3 },
+      { "question": "O que os ursos costumam fazer durante o inverno para economizar energia?", "answers": ["Fazem uma festa", "Viajam para o sul", "Hibernam", "Constroem casas de gelo"], "correct": 2 },
+      { "question": "Como se chama o esqueleto de um peixe?", "answers": ["Osso", "Carapaça", "Espinha", "Crânio"], "correct": 2 },
+      { "question": "Qual o nome do satélite natural que gira ao redor da Terra e brilha no céu à noite?", "answers": ["Sol", "Estrela Cadente", "Lua", "Cometa Halley"], "correct": 2 },
+      { "question": "Qual o animal que late e é o melhor amigo do homem?", "answers": ["Gato", "Cavalo", "Cachorro", "Coelho"], "correct": 2 },
+      { "question": "De qual animal obtemos o leite que bebemos?", "answers": ["Da galinha", "Da vaca", "Do porco", "Do pato"], "correct": 1 },
+      { "question": "Como se chama a chuva bem fraquinha?", "answers": ["Tempestade", "Garoa", "Tornado", "Nevasca"], "correct": 1 },
+      { "question": "Qual é o sentido que usamos para sentir o cheiro das coisas?", "answers": ["Visão", "Audição", "Paladar", "Olfato"], "correct": 3 },
+      { "question": "Qual o nome do grande conjunto de árvores e animais que chamamos de 'pulmão do mundo' no Brasil?", "answers": ["Praia de Copacabana", "Floresta Amazônica", "Pão de Açúcar", "Cataratas do Iguaçu"], "correct": 1 }
+    ]
+  },
         };
 
         const lobbyScreen = document.getElementById('lobby-screen');
