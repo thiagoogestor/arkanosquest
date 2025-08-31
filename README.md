@@ -1086,7 +1086,6 @@
             { "question": "Qual é a doença caracterizada pelo crescimento descontrolado de células anormais no corpo?", "answers": ["Diabetes", "Câncer", "Arteriosclerose", "Cirrose"], "correct": 1 }
         ]
     },
-{
   "mitologia_hard_1": {
     "name": "Mitologias do Mundo (Hard - Parte 1)",
     "questions": [
@@ -1137,7 +1136,6 @@
       { "question": "Na mitologia grega, Sísifo foi condenado a qual castigo eterno no Tártaro?", "answers": ["Ter seu fígado comido por uma águia", "Ficar eternamente com fome e sede", "Empurrar uma rocha montanha acima", "Tentar encher uma jarra furada"], "correct": 2 }
     ]
   },
-{
   "o_intruso_hard_1": {
     "name": "O Intruso (Hard - Parte 1)",
     "questions": [
@@ -1188,7 +1186,6 @@
       { "question": "Qual destes países é o 'intruso' no G7 (Grupo dos Sete)?", "answers": ["Canadá", "Japão", "Rússia", "Itália"], "correct": 2 }
     ]
   },
-{
   "qual_veio_primeiro_hard_1": {
     "name": "Qual Veio Primeiro? (Hard - Parte 1)",
     "questions": [
@@ -1239,7 +1236,6 @@
       { "question": "Qual destes eventos veio primeiro?", "answers": ["A descoberta da Antártida", "A Doutrina Monroe"], "correct": 0 }
     ]
   },
-{
   "literatura_hard_1": {
     "name": "Literatura Clássica (Hard - Brasil)",
     "questions": [
@@ -1290,7 +1286,6 @@
       { "question": "Qual o nome do narrador do romance 'O Grande Gatsby'?", "answers": ["Jay Gatsby", "Tom Buchanan", "George Wilson", "Nick Carraway"], "correct": 3 }
     ]
   },
-{
   "invencoes_hard_1": {
     "name": "Invenções e Descobrimentos (Hard - Parte 1)",
     "questions": [
